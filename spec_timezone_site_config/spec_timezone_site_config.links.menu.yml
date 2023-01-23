@@ -1,0 +1,7 @@
+
+spec_timezone_site_config.admin:
+  title: 'Specbee Configuration'
+  description: 'To configure the Country city and timezone for site'
+  parent: system.admin_config_development
+  route_name: spec_timezone_site_config.specbee_config
+  weight: 100
