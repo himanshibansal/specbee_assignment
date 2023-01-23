@@ -1,0 +1,4 @@
+services:
+  spec_timezone_site_config.timezone_services:
+    class: Drupal\spec_timezone_site_config\TimezoneService
+    arguments: ['timezone']
