@@ -1,0 +1,20 @@
+uuid: a396ce5c-c7e5-440e-85f5-66b742fe47bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - spec_timezone_site_config
+  theme:
+    - olivero
+id: timezoneblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: timezone_block
+settings:
+  id: timezone_block
+  label: 'Timezone Block'
+  label_display: visible
+  provider: spec_timezone_site_config
+visibility: {  }
